@@ -54,7 +54,7 @@ const GameBoard = ({ userPick, addScore, setIsPlaying }) => {
 
       addScore(result);
     }, 2000);
-  }, []);
+  }, );
 
   return (
     <div className="GameBoard">
