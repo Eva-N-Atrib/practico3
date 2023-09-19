@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Modal from "react-modal";
+import {Modal} from "react-modal";
 
 import Header from "./components/Header";
 import Board from "./components/Board";
@@ -8,10 +8,10 @@ import GameBoard from "./components/GameBoard";
 import "./App.css";
 import rulesImage from "./static/images/image-rules.svg";
 
-Modal.setAppElement("#root");
+Modal.setAppElement("#root");  // const [modalIsOpen, setIsOpen] = useState(false);
 
 function App() {
-  const [userPick, setUserPick] = useState("");
+  const [userPick, setUserPick] = useState("");// import rulesImage from "./static/images/image-rules.svg";
   const [isPlaying, setIsPlaying] = useState(false);
   const [score, setScore] = useState(0);
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -47,11 +47,11 @@ function App() {
         </div>
       </Modal>
 
-      <button className="rules-button" onClick={() => setIsOpen(true)}>
+        <button className="rules-button" onClick={() => setIsOpen(true)}>
         RULES
       </button>
 
       </div>
       )}
 
-export default App;
+export default App; 
