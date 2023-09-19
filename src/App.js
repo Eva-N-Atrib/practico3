@@ -51,25 +51,7 @@ function App() {
         RULES
       </button>
 
-      <div className="credits">
-        <p>
-          Challenge by{" "}
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH"
-          >
-            FrontendMentor
-          </a>
-          . Coded by{" "}
-          <a target="_blank" rel="noreferrer" href="https://github.com/lamaolo">
-            Lucero Amaolo
-          </a>
-          .
-        </p>
       </div>
-    </div>
-  );
-}
+      )}
 
 export default App;
